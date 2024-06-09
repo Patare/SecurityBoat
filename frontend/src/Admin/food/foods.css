@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .admin-panel {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin-left: 350px;
+    margin-top: -600px;
+  }
+  
+  .admin-panel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel form input,
+  .admin-panel form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .admin-panel form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-panel form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item h3 {
+    margin-top: 0;
+  }
+  
+  .menu-item p {
+    margin: 5px 0;
+  }
+  
+  .menu-item button {
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item button:hover {
+    background-color: #218838;
+  }
+  
+  .menu-item .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .menu-item .delete-button:hover {
+    background-color: #c82333
+  }
